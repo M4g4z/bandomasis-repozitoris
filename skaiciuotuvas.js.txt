@@ -7,30 +7,36 @@ function skaiciuotuvas(a, b, veiksmas) {
     atimtis = a - b;
     daugyba = a * b;
     dalyba = a / b;
+    var rezultatas;
 
     if (veiksmas == "sudetis") {
-        veiksmas = sudetis;
+        rezultatas = sudetis;
     }
     else {
         if (veiksmas == "atimtis") {
-            veiksmas = atimtis;
+            rezultatas = atimtis;
         }
         else {
             if (veiksmas == "daugyba") {
-                veiksmas = daugyba;
+                rezultatas = daugyba;
             }
             else {
                 if (veiksmas == "dalyba") {
-                    veiksmas = dalyba;
+                    rezultatas = dalyba;
+                }
+                else {
+                    rezultatas = 'Bandykite dar kart';
+                    console.log("Netinkamas arba nepalaikomas aritmetinis veiksmas");
                 }
             }
         }
     }
-    console.log(veiksmas);
-//    return veiksmas;
+
+    console.log(rezultatas);
 }
 
 skaiciuotuvas(10, 5, "sudetis");
 skaiciuotuvas(10, 5, "atimtis");
 skaiciuotuvas(10, 5, "daugyba");
 skaiciuotuvas(10, 5, "dalyba");
+skaiciuotuvas(10, 5, "saknis");
