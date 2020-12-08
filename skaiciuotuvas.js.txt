@@ -1,0 +1,36 @@
+function skaiciuotuvas(a, b, veiksmas) {
+    var sudetis;
+    var atimtis;
+    var daugyba;
+    var dalyba;
+    sudetis = a + b;
+    atimtis = a - b;
+    daugyba = a * b;
+    dalyba = a / b;
+
+    if (veiksmas == "sudetis") {
+        veiksmas = sudetis;
+    }
+    else {
+        if (veiksmas == "atimtis") {
+            veiksmas = atimtis;
+        }
+        else {
+            if (veiksmas == "daugyba") {
+                veiksmas = daugyba;
+            }
+            else {
+                if (veiksmas == "dalyba") {
+                    veiksmas = dalyba;
+                }
+            }
+        }
+    }
+    console.log(veiksmas);
+//    return veiksmas;
+}
+
+skaiciuotuvas(10, 5, "sudetis");
+skaiciuotuvas(10, 5, "atimtis");
+skaiciuotuvas(10, 5, "daugyba");
+skaiciuotuvas(10, 5, "dalyba");
