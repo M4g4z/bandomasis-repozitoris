@@ -1,0 +1,90 @@
+/* Placeholder
+ {
+    background-color: ;
+}
+*/
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#titulinis {
+    display: block;
+    
+}
+
+.paveiksliukas {
+    display: block;
+}
+
+.paveiksliukas img {
+    width: 100%;
+    height: 150px;
+}
+
+.meniu {
+    display: inline;
+    overflow: hidden;
+    background-color: rgba(29, 185, 172, 0.623);
+    
+}
+
+.meniu a {
+    color: rgb(100, 100, 100);
+}
+
+#meniu-kaireje {
+    float: left;
+    background-color: rgba(29, 185, 172, 0.623);
+
+}
+
+#meniu-desineje {
+    float: right;
+    background-color: rgba(29, 185, 172, 0.623);
+}
+
+.vidurys {
+    display: block;
+    width: auto;
+    border: 1px solid black;
+    background-color: silver;
+    padding: 1px;
+}
+
+.kairys {
+    display: inline-block;
+    width: 30%;
+}
+
+.vidurinis {
+    display: inline-block;
+    width: 54%;
+}
+
+.reklamu {
+    display: inline-block;
+    width: 15%;
+}
+
+.turinys {
+    background-color: rgba(9, 112, 104, 0.418);
+    
+}
+
+.antraste {
+    background-color: rgba(9, 112, 103, 0.836);
+
+}
+
+#footer {
+    background-color: black;
+    border: 1px dotted silver;
+    outline: 1px dashed black;
+    align-content: center;
+    color: yellow;
+    margin: 1px;
+    padding: 1px;
+}
